@@ -13,10 +13,11 @@ class Student {
     }
 
     public static void main(String[] args) {
-        Student s1 = new Student("Tanya", 85);
+        Student s1 = new Student("Neeraj", 85);
         Student s2 = updateMarks(s1, 95);
 
         System.out.println("Original: " + s1.name + " " + s1.marks);
         System.out.println("Updated: " + s2.name + " " + s2.marks);
     }
 }
+
