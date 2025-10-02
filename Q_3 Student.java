@@ -21,10 +21,11 @@ class Student {
 
     public static void main(String[] args) {
         Student s = new Student();
-        s.setName("Tanya");
+        s.setName("Neeraj");
         s.setMarks(90);
 
         System.out.println("Name: " + s.getName());
         System.out.println("Marks: " + s.getMarks());
     }
 }
+
